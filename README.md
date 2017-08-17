@@ -8,7 +8,7 @@
 
  1. Describe the purpose of Big 0.
 
-    > Big O is a method of measuring the overall complexity of an algorithm. Helps describe the overall efficiency of an algorithm.
+    > Big O is a method of measuring the overall complexity and efficiency of an algorithm in its worst case scenario.
 
 ---
 
@@ -61,6 +61,7 @@
     O(n^2)
 
     > O(n)
+    O(n) is the best time complexity for sorting algorithms. Of the above O(log n) is faster than O(n), however it is generally optimized for searching rather than sorting.
 
 ---
 
@@ -69,7 +70,7 @@
 
     > O(1) is constant time, this means that it has a consistent action and times that it performs that action.
     O(n) is linear time which takes a consistently incrementing amount of time based upon the length or size of it's input.
-    O(n^2) is quadratic time which takes n^2 time based upon two time and or length based actions.
+    O(n^2) takes exponentially more time as the data set gets larger.
 
 
 ---
@@ -78,6 +79,8 @@
 7. How would you recognize O(log n) and O(n log n) time complexities in a function?
 
     > Both are sorting algorithms. O(n log n) will sort and then possibly loop after sorting.
+
+    > A function whose big O followed O(log n) would have one continuously shrinking computational feature, such as a recursion. A function whose big O followed O(n log n) would have a both a shrinking computational feature and a computational feature whose input would vary in size.
 
 ---
 
