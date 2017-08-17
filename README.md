@@ -82,6 +82,9 @@
 
     > A function whose big O followed O(log n) would have one continuously shrinking computational feature, such as a recursion. A function whose big O followed O(n log n) would have a both a shrinking computational feature and a computational feature whose input would vary in size.
 
+    > O(log n) functions are divide and conquer algorithms such as binary search. They keep dividing sorted data in half to quickly get a result. They have logarithmic time complexity, which is really good in terms of time complexity and on par with O(1).
+    With O(n log n) functions, on the other hand, data is divided in half and each half is processed again independently using recursive functionality. These functions are good for sorting. O(n log n) has a time complexity higher than O(log n) because it has to run more operations (using both of their worst to compare) to achieve its goals.
+
 ---
 
   ##
